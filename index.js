@@ -1,6 +1,6 @@
 /**
  * Aziz bot- A WhatsApp Bot
- * Copyright (c) 2026 Aziz Van Gogh 
+ * Copyright (c) 2026 Aziz VanGogh 
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the MIT License.
@@ -73,8 +73,8 @@ setInterval(() => {
 let phoneNumber = "911234567890"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "Aziz DevBot"
-global.themeemoji = "•"
+global.botname = "Aziz Bot"
+global.themeemoji = "/"
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
 
